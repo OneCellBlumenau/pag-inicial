@@ -332,6 +332,7 @@ iframe{
     
     body{
         overflow-x: hidden ;
+        background-color: #000000;
     }
     #listas{
         display: none;
