@@ -393,9 +393,11 @@ iframe{
         width: auto;
         height: auto;
     }
-    #f11{
-        width: 150px;
-        height: 220px;
+    img#f11 {
+        display: flex;
+        width: 318px;
+        height: 381px;
+        padding: 8px;
     }
     #f22{
         width: 150px;
