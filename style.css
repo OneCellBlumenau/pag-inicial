@@ -341,9 +341,10 @@ iframe{
     margin-right: 30px;
     border-radius: 15px;
 }
-#d-serviços{
+#serviços{
     display: flex;
     background-color: rgba(167, 164, 164, 0.582);
+    justify-content: center;
 }
 .specificaçao-serviços{
     width: 270px;
@@ -362,6 +363,25 @@ iframe{
     body{
         overflow-x: hidden ;
         background-color: #000000;
+    }
+    
+    #serviços{
+        display: block;
+        background-color: rgba(167, 164, 164, 0.582);
+        justify-content: center;
+    }
+    #d-serviços{
+        display: flex;
+    }
+    #d-serviços2{
+        display: flex;
+    }
+    .specificaçao-serviços{
+        width: 150px;
+        height: 140px;
+        border-radius: 15px;
+        margin: 20px;
+        margin-left: 15px;
     }
     #celulares-quebrados{
         margin: 30px;
