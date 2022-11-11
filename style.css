@@ -399,9 +399,11 @@ iframe{
         height: 381px;
         padding: 8px;
     }
-    #f22{
-        width: 150px;
-        height: 220px;
+    img#f22 {
+        display: flex;
+        width: 318px;
+        height: 381px;
+        padding: 8px;
     }
 
 
