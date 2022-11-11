@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans:wght@300 & display=swap');
+/*   Comentario    */
+*{
+    text-decoration: none;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+}
+#cabeçalho-contato{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 1366px;
+    height: 80px;
+}
+#menu-contato{
+    display: flex;
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+#contato{
+    display: flex;
+    color: white;
+    background-color: gray;
+    border-radius: 20px;
+    padding: 50px;
+}
+.numeros{
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+}
+#cabeçalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 1350px;
+    height: 80px;
+}
+li{
+    color: rgb(255, 255, 255);
+    margin: 20px 15px 10px 15px;
+    padding: 5px;
+    transition: 0.7s;
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: rgb(2, 2, 2);
+    margin: 20px 15px 10px 15px;
+    padding: 6px;
+    border-radius: 8px;
+}
+#a1{
+    padding: 5px;
+    margin: 15px;
+    color: goldenrod;
+    font-size: 2em;
+    display: inline-block;
+    border: 1px solid goldenrod;
+    border-radius: 25px;
+    display: flex;
+}
+#listas{
+    display: flex;
+    padding: 5px 0px 8px 0px;
+    margin: 0%;
+}
+#b1{
+    border: 5px solid goldenrod;
+    display: inline-block;
+    padding: 13px;
+    border-radius: 25px;
+}
+#lo1{
+    color: white;
+    margin-top: 2px;
+}
+main{
+    padding: 0px 0px;
+    justify-content: center;
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%231F5458' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23616161'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    
+}
+#text2{
+    background-color: rgb(41, 37, 37);
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: aqua;
+    text-align: center;
+    margin: 20px 0ex;
+}
+.itens{
+    margin: 20px;
+    background-color: rgba(117, 108, 108, 0.877);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    border-radius: 20px;
+}
+h2{
+    padding: 15px;
+    margin: 5px;
+    font-family:'Open Sans', sans-serif;
+}
+h1{
+    font-family:'Open Sans', sans-serif;
+}
+img#f11{
+    display: flex;
+    width: 380px;
+    height: 480px;
+    padding: 8px;
+}
+img#f22{
+    display: flex;
+    width: 380px;
+    height: 480px;
+    padding: 8px;
+}
+#celulares{
+    display: flex;
+}
+img#f2{
+    position:static;
+    background-size: cover;
+    max-width: 1349px;
+    margin-top: 80px;
+    
+}
+#fotos1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#social{
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+    background-color: rgb(133, 131, 131);
+    justify-items: auto;
+    text-align:center;
+    border-radius: 15px;
+    color: rgb(79, 86, 124);
+}
+#social a{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+    width: 90px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+:hover#lk1{
+    background-color: rgba(98, 155, 155, 0.678);
+    border-radius: 10px;
+}
+:hover#lk2{
+    background-color: rgba(98, 155, 155, 0.678);
+    border-radius: 10px;
+}
+:hover#lk3{
+    background-color: rgba(98, 155, 155, 0.678);
+    border-radius: 10px;
+}
+:hover#lk4{
+    background-color: rgba(98, 155, 155, 0.678);
+    border-radius: 10px;
+}
+#lk11{
+    background-color: rgba(159, 18, 194, 0.603);
+}
+#lk22{
+    background-color: rgba(255, 0, 0, 0.582);
+}
+#lk33{
+    background-color: rgba(29, 32, 202, 0.603);
+}
+#lk44{
+    background-color: rgb(3, 160, 3);
+}
+#sc1{
+    background-color: rgba(167, 164, 164, 0.582);
+    text-align: center;
+    border-radius: 15px;
+    height: 230px;
+    margin-top: 20px;
+}
+#men2{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%231F5458' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23616161'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+}
+#menu2{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%231F5458' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23616161'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+    margin: 0px;
+    background-color: black;
+    background-attachment: fixed;
+}
+#dsc1{
+    background-color: rgba(167, 164, 164, 0.548);
+    margin: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+}
+#ul1{
+    padding: 0px;
+}
+#s1{
+    background-color:rgba(81, 207, 22, 0.801);
+    background-size: cover;
+}
+#rs1{
+    margin: 0px;
+    padding-bottom: 0px;
+}
+#tx1{
+    color: black;
+    display:contents;
+    text-align: center;
+}
+#tt{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg fill-opacity='0.15'%3E%3Cpolygon fill='%23143301' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23286602' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%233c9903' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%2350cc04' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%2364FF05' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 25px;
+}
+#dsctroca{
+    background-color:rgba(133, 131, 131, 0.521);
+    margin-top: 50px;
+    margin-bottom: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+.modelos{
+    margin-right: 50px;
+}
+#logos-celular{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(133, 131, 131, 0.521);
+    border-radius: 20px;
+    padding: 3px;
+    width: 400px;
+    margin: 20px;
+}
+.logo{
+    max-width: 40px;
+    max-height: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#contain-logos{
+    display: flex;
+    justify-content: center;
+}
+#ftcelular{
+    margin: 10px;
+}
+#videos{
+    margin: 30px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    align-items: center;
+    padding-left: 90px;
+    background-color: rgba(167, 164, 164, 0.582);
+    display: flex;
+}
+iframe{
+    border-radius: 15px;
+    margin: 30px;
+}
+:hover.video1{
+    width: 350px;
+    height: 250px;
+    transition: 3s;
+}
+.avatar{
+    background-color: rgba(255, 251, 251, 0.877);
+    border-radius: 10px;
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 2px;
+}
+.link-menu{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    transition: 0.7s;
+}
+:hover.link-menu{
+    background-color: rgba(255, 255, 255, 0.726);
+    color: rgb(2, 2, 2);
+    margin: 20px 15px 10px 15px;
+    padding: 6px;
+    border-radius: 8px;
+}
+/* mobile */
+#listas-mobile{
+    display: none;
+}
+/* Media query */
+@media (max-width: 450px) {
+    
+    body{
+        overflow-x: hidden ;
+    }
+    #listas{
+        display: none;
+    }
+    #contain{
+        width: 362px;
+    }
+    #menu-mobile{
+        background-color: white;
+        position: absolute;
+        font-size: 3rem;
+        left: 69%;
+    }
+    menu{
+        width: max-content;
+    }
+    #f2{
+        width: 363px;
+        height: 68px;
+    }
+    #ftcelular{
+        display: none;
+    }
+    #sc1{
+        width: 330px;
+        height: 340px;
+    }
+    #social{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .video1{
+        width: 200px;
+        padding: 0;
+        margin: 10px;
+        right: 0;
+        padding-right: 10px;
+    }
+    #videos{
+        display: block;
+        padding: 0;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    #celulares{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+    #fotos1{
+        display: block;
+    }
+    #dsctroca{
+       margin: 25px;
+       padding-bottom: 10px;
+    }
+    .itens{
+        width: auto;
+        height: auto;
+    }
+    #f11{
+        width: 180px;
+        height: 250px;
+    }
+    #f22{
+        width: 180px;
+        height: 250px;
+    }
+
+
+}
